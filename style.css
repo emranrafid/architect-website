@@ -167,8 +167,32 @@ main {
     border-left: 5px solid #FF900E;
     padding-left: 23px;
 }
-.features-content{
+
+.features-content {
     margin-right: 50px;
+}
+
+.years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    color: #FFF;
+    padding: 40px 42px;
+}
+
+.years-badge h2 {
+    font-size: 65px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.badge-desc {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 ;
 }
 
 /* responsive for mobile devices */
