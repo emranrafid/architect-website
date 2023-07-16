@@ -70,8 +70,9 @@ nav li a {
 }
 
 main {
-    max-width: 1440px;
+    max-width: 1150px;
     margin: 0 auto;
+    margin-top: 85px;
 
 }
 
@@ -99,12 +100,42 @@ main {
     color: var(--dark-03, #727272);
     font-size: 45px;
     font-weight: 500;
-    
+
 }
-.features-text{
+
+.features-text {
     color: #FF900E;
     font-size: 45px;
     font-weight: 700;
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.facts-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 35px 45px;
+}
+
+.card-stats {
+    color: var(--dark-02, #424242);
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.card-title {
+    color: var(--dark-03, #727272);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
 }
 
 /* responsive for mobile devices */
@@ -123,18 +154,20 @@ main {
         text-align: center;
         font-size: 3rem;
     }
-    .teams-container{
+
+    .teams-container {
         flex-direction: column;
 
     }
+
     .teams-img-container {
         display: grid;
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
-    
 
-        
+
+
 }
 
 /* responsive for Tablate devices */
@@ -143,7 +176,7 @@ main {
         padding: 20px;
     }
 
-    nav, {
+    nav {
         flex-direction: column;
     }
 
@@ -152,8 +185,8 @@ main {
         text-align: center;
         font-size: 4rem;
     }
-    .teams-container{
+
+    .teams-container {
         flex-direction: column;
     }
 }
-
