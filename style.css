@@ -5,7 +5,14 @@
     font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
-    
+    border-radius:8px ;
+    background:#FF900E;
+    padding: 20px 25px;
+    color: #fff;
+    font-size: 1.25rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 header {
@@ -54,4 +61,37 @@ nav li a {
 
 .banner-desc {
     color: var(--dark-03, #727272);   
+}
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+/* responsive for mobile devices */
+
+@media  screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner-title {
+        color: var(--dark-01, #131313);
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+/* responsive for Tablate devices */
+@media screen and (min-width: 576px) and (max-width:960px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner-title {
+        color: var(--dark-01, #131313);
+        text-align: center;
+        font-size: 4rem;
+    }
 }
