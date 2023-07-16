@@ -178,6 +178,8 @@ main {
     width: 342px;
     color: #FFF;
     padding: 40px 42px;
+    position: relative;
+    bottom: 100px;
 }
 
 .years-badge h2 {
@@ -193,6 +195,10 @@ main {
     font-weight: 500;
     text-align: center;
     margin: 0 ;
+}
+.features-img img{
+/* width: 100%; */
+margin-left: 35px;
 }
 
 /* responsive for mobile devices */
